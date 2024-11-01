@@ -110,4 +110,79 @@ Always follow responsible disclosure practices when finding vulnerabilities
 
 PortSwigger XSS Documentation
 OWASP XSS Prevention Cheat Sheet
-PortSwigger Web Security Academy
+PortSwigger Web Security Academy                                                                                 
+                                       
+                        
+                                                                                  
+                                                                                                             
+# Task 2
+# Vulnerability Assessment Presentation Report
+### Introduction
+
+Local File Inclusion Exploitation (LFI) Feature in Netsparker
+
+In this Netsparker web security tutorial we will use a local file inclusion vulnerability which was discovered by Netsparker web application security scanner and exploit it using the Netsparker exploitation engine. As you can see screenshots images it is very easy to use Netsparker and exploit reported web application vulnerabilities.
+
+Netsparker is a false positive free web application security scanner and is used by government agencies, financial institutions, software companies and many other world renowned companies such as Samsung, EA Sports, Skype, ING Bank and Ernst & Young.
+
+
+## Additional Vulnerabilities 
+
+Even If you are not a seasoned web security expert or penetration tester, it is possible to easily and automatically detect SQL Injection, Cross-site scripting (XSS) and other web application vulnerabilities in your websites and web applications with Netsparker. Since Netsparker automatically exploits detected web vulnerabilities using read only safe methods, there is no need for testers to verify if the reported vulnerabilities are false positives.
+
+An out of the box installation of Netsparker can scan any type of website and web application built in PHP, .NET, Perl, Java and other popular web development frameworks without the need for it to be extensively configured. Netsparker automates most of the tasks for you. For example it can automatically identify custom 404 error pages, URL rewrite rules, anti-CSRF tokens etc, therefore you do not need to spend time configuring the web security scanner. 
+
+Even though Netsparker boasts a very easy to use interface, it presents developers and security auditors with all the needed technical details of the identified web application vulnerabilities. It also suggests practical solutions to help developers remediate the vulnerabilities.
+
+
+## Report:
+
+### ***NO request has been carried out for the selected resource.***
+
+In the Images you will see how easy it is to launch a vulnerability scan against a website or web application using the false positive free web application security scanner Netsparker.
+
+## Conclusion
+
+Netsparker is not just an automated web application security scanner. It is a featureful web application security tool that can be used and integrated at every stage of the SDLC (software development lifecycle) of any web application. For example it has a scheduler to schedule repetitive automated web vulnerability scans, a reporter to generate professional technical and compliance reports, a command line interface to easily integrate with other tools and much more. 
+
+Netsparker also supports several open source and free web security tools
+
+
+
+
+# Task 3
+
+# Cross-Site Scripting (XSS)
+
+**Description:**
+
+The site is vulnerable to XSS attacks, allowing attackers to inject malicious scripts into web pages viewed by other users.
+
+**Method of Discovery:**
+
+Injected script tags into input fields (e.g., <script>alert(0 / 1)</script>).
+Observed that the script executed in the browser, confirming the vulnerability.
+
+
+**Impact:** 
+
+An attacker could execute scripts in the context of another user's session, leading to data theft or session hijacking.
+
+
+**Conclusion:** 
+
+The assessment of testasp.vulnweb.com/ revealed several critical vulnerabilities, including SQL Injection, Directory Traversal, and Cross-Site Scripting. These vulnerabilities pose significant risks to the security of the application and its users.
+
+**Recommendations** 
+
+**For SQL Injection:** 
+Implement prepared statements and parameterized queries to prevent SQL injection.
+**For Directory Traversal:**
+Validate and sanitize user inputs to restrict access to sensitive files.
+**For XSS:**
+Use output encoding and content security policies to mitigate XSS risks.
+
+
+***This report serves as a documentation of the vulnerabilities found and the methods used to discover them. Further actions should be taken to remediate these vulnerabilities to enhance the security of the application.***
+
+# *** ***Thank You!*** ***
